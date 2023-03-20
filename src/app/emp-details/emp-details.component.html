@@ -1,0 +1,23 @@
+
+ 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- <app-home [parentData]="bestEmp"></app-home> -->
+
+<div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+        <div class="user_card m-5 ">
+            <div class="d-flex justify-content-center">
+                <div class="brand_logo_container m-5">
+                    <img style="width: 200px; border-radius: 40px;" src="{{details?.data.avatar}}"  alt="Logo">
+                </div>
+            </div>
+                  <div  style="font-family:Georgia, 'Times New Roman', Times, serif; border:red;">
+                    <h3 style="margin-left: 120px;">{{details?.data.first_name}}</h3><br>
+                    <h3 style="margin-left: 120px;">{{details?.data.last_name}}</h3><br>
+                    <h3 style="margin-left: 20px;">{{details?.data.email}}</h3><br>
+                  </div>
+    </div>
+</div>
